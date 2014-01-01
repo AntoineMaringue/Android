@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="gv_width">1200dip</dimen>
+    <dimen name="gv_height">350dip</dimen>
+    <dimen name="gv_column_width">150dip</dimen>
+    <dimen name="gv_hor_spacing">40dp</dimen>
+    <dimen name="gv_ver_spacing">25dp</dimen>
+    <dimen name="gv_padding_left">45dp</dimen>
+    <dimen name="gv_padding_top">0dp</dimen>
+    <dimen name="gv_padding_right">5dp</dimen>
+    <dimen name="gv_padding_bottom">5dp</dimen>
+</resources>

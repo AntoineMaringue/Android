@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2010 ZXing authors
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<resources>
+  <string name="app_name">ScanNStockMobile</string>
+  <string name="capture_name">QR Code Capture</string>
+  <string name="encoder_name">QR Code Encoder</string>
+  <string name="decoder_name">QR Code Decoder</string>
+
+  <string name="contents_contact">Infos Contact</string>
+  <string name="contents_email">Adresse email</string>
+  <string name="contents_location">Coordonnees geographique</string>
+  <string name="contents_phone">Num telephone</string>
+  <string name="contents_sms">SMS</string>
+  <string name="contents_text">Texte </string>
+
+  <string name="msg_default_contents">Contenu</string>
+  <string name="msg_default_format">Format</string>
+  <string name="msg_default_meta">Metadata</string>
+  <string name="msg_default_mms_subject">Salut</string>
+  <string name="msg_default_status">Place votre code a barre dans le rectangle.</string>
+  <string name="msg_default_time">Temps</string>
+  <string name="msg_default_type">Type</string>
+
+  <string name="result_address_book">Info contact trouve</string>
+  <string name="result_calendar">Info evenement trouve</string>
+  <string name="result_email_address">Adresse email trouve</string>
+  <string name="result_geo">Coordonnees geo trouve</string>
+  <string name="result_isbn">Livre trouve</string>
+  <string name="result_product">Produit trouve</string>
+  <string name="result_sms">SMS trouve</string>
+  <string name="result_tel">numero trouve</string>
+  <string name="result_text">texte trouve</string>
+  <string name="result_uri">URL trouve</string>
+  <string name="result_wifi">Configuration WLAN trouve</string>
+
+  <string name="wifi_changing_network">Changement reseau</string>
+  <string name="wifi_ssid_label">Nom de reseau</string>
+  <string name="wifi_type_label">Type</string>
+
+  <string name="barcode_image">Image code a barres</string>
+  <string name="menu_settings">Parametres</string>
+  <string name="hello_world">Hello</string>
+  
+  <string name="configuration_serveur">Configuration Serveur</string>
+    <string name="connex_bdd">Connexion</string>
+    <string name="txt_lst_sites">Listes des sites :</string>
+    <string name="txt_id">Id</string>
+    <string name="txt_mdp">Mot de passe :</string>
+    <string name="btn_validation_config">Validation</string>
+    
+    <string name="Scan">Scanner un code à barres</string>
+    <string name="Parameters">Param\ètres de l\'application</string>
+    <string name="Aide">Aide</string>
+    <string name="Contacts">Nous contacter</string>
+    <string name="Sortir">Quitter l\'application</string>  
+</resources>

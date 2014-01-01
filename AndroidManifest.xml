@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.sciencesu.scannstockmobile.SCANNEUR"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+     <uses-sdk android:minSdkVersion="8"
+        android:targetSdkVersion="17"/>
+
+    <uses-feature android:name="android.hardware.camera"/>
+	<uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+	<uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+	
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.FLASHLIGHT"/>
+	<uses-feature android:name="android.hardware.camera.flash" />
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+        <uses-permission  android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application android:icon="@drawable/ic_launcher" 
+        android:label="@string/app_name" android:debuggable="true">
+        
+        <activity android:name="fr.sciencesu.scannstockmobile.SCANNSTOCK.splashActivity" android:theme="@android:style/Theme.NoTitleBar">
+
+	        <intent-filter>
+	            <action android:name="android.intent.action.MAIN" />
+	            <category android:name="android.intent.category.LAUNCHER" />
+	        </intent-filter>
+    	</activity>
+    	
+        <activity android:name="fr.sciencesu.scannstockmobile.SCANNSTOCK.ConnexionActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+        </activity>
+    	
+        <activity android:name="fr.sciencesu.scannstockmobile.SCANNSTOCK.ListViewCustomActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+	        
+            
+        </activity>
+        
+         <activity android:name="fr.sciencesu.scannstockmobile.SCANNSTOCK.ProductActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+        </activity>   
+        
+         <activity android:name="fr.sciencesu.scannstockmobile.SCANNSTOCK.ParametresActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher">
+        </activity>        
+    	
+        <activity
+            android:name="fr.sciencesu.scannstockmobile.SCANNEUR.AudioPlayerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+           	    <action android:name="android.intent.action.VIEW" />
+            	<category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="audio/x-mpegurl" android:scheme="http"/> 
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="fr.sciencesu.scannstockmobile.SCANNEUR.CaptureActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher"
+            android:screenOrientation="landscape"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+        </activity>
+        
+
+        <activity android:name="fr.sciencesu.scannstockmobile.SCANNEUR.DecoderActivity"
+            android:label="@string/decoder_name"
+            android:icon="@drawable/ic_launcher"
+            android:screenOrientation="landscape"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+           
+        </activity>
+        
+        <activity android:name="fr.sciencesu.scannstockmobile.SCANNEUR.InformationProductActivity"
+            android:icon="@drawable/ic_launcher"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+           
+        </activity>
+       
+
+        <activity android:name="fr.sciencesu.scannstockmobile.SCANNEUR.EncoderActivity"
+            android:label="@string/encoder_name"
+            android:icon="@drawable/ic_launcher"
+            android:screenOrientation="landscape"
+            android:clearTaskOnLaunch="true"
+            android:stateNotNeeded="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            
+        </activity>
+        
+       
+        
+         <activity android:name="fr.sciencesu.scannstockmobile.SCANNSTOCK.ListAssociationActivity"
+            android:label="@string/app_name"
+            android:icon="@drawable/ic_launcher"
+            android:theme="@android:style/Theme.NoTitleBar"
+            >
+        </activity>
+
+    </application>
+
+</manifest>

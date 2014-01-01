@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:ignore="SelectableText" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:gravity="center"
+        android:text="Latitude" />
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:editable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="0.0" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/longitude"
+        android:layout_alignTop="@+id/longitude"
+        android:layout_marginLeft="10dip"
+        android:gravity="center"
+        android:text="Longitude" />
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/latitude"
+        android:layout_marginRight="10dip"
+        android:editable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="0.0" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/altitude"
+        android:layout_alignTop="@+id/altitude"
+        android:layout_marginLeft="10dip"
+        android:gravity="center"
+        android:text="Altitude" />
+
+    <EditText
+        android:id="@+id/altitude"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginRight="10dip"
+        android:editable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="altitude" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView03"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip" >
+
+        <Button
+            android:id="@+id/choix_source"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="Choisir la source" />
+
+        <Button
+            android:id="@+id/obtenir_position"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="Obtenir Position" />
+
+        <Button
+            android:id="@+id/afficherAdresse"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="Afficher adresse" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/adresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayout01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/LinearLayout01"
+        android:layout_below="@+id/adresse"
+        android:layout_marginLeft="18dp" >
+    </ListView>
+
+</RelativeLayout>

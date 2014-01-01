@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<GridView
+            android:id="@+id/gridviewperso"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:columnWidth="90dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+>
+</GridView>
+
+
+</RelativeLayout>
+<!--<TableLayout
+	android:id="@+id/widget68"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+	android:id="@+id/btnconfigserver"
+	android:layout_width="272dp"
+	android:layout_height="wrap_content"
+	android:text="@string/configuration_serveur"
+	android:layout_x="28dp"
+	android:layout_y="22dp" />
+<Button
+	android:id="@+id/btnconnexionbase"
+	android:layout_width="272dp"
+	android:layout_height="wrap_content"
+	android:text="@string/connex_bdd"
+	android:layout_x="28dp"
+	android:layout_y="74dp" />
+<Spinner
+	android:id="@+id/spinstock"
+	android:layout_width="180dp"
+	android:layout_height="wrap_content"
+	android:layout_x="113dp"
+	android:layout_y="80dp" />
+<TextView
+	android:id="@+id/txtlstsite"
+	android:layout_width="wrap_content"
+	android:layout_height="21dp"
+	android:text="@string/txt_lst_sites"
+	android:layout_x="3dp"
+	android:layout_y="140dp" />
+<Spinner
+	android:id="@+id/spinsites"
+	android:layout_width="180dp"
+	android:layout_height="wrap_content"
+	android:layout_x="113dp"
+	android:layout_y="120dp" />
+
+<TextView
+	android:id="@+id/txtusername"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/txt_id"
+	android:layout_x="8dp"
+	android:layout_y="199dp" />
+<EditText
+	android:id="@+id/edtusername"
+	android:layout_width="181dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="113dp"
+	android:layout_y="187dp" />
+<TextView
+	android:id="@+id/txtmdp"
+	android:layout_width="wrap_content"
+	android:layout_height="21dp"
+	android:text="@string/txt_mdp"
+	android:layout_x="5dp"
+	android:layout_y="248dp" />
+<EditText
+	android:id="@+id/edtmdp"
+	android:layout_width="184dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="110dp"
+	android:layout_y="238dp" />
+<TableRow
+	android:id="@+id/widget70"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+</TableRow>
+<Button
+	android:id="@+id/btnvalidation"
+	android:layout_width="275dp"
+	android:layout_height="wrap_content"
+	android:text="@string/btn_validation_config"
+	android:layout_x="23dp"
+	android:layout_y="372dp" />
+
+<Button
+	android:id="@+id/btntestgoproduct"
+	android:layout_width="275dp"
+	android:layout_height="wrap_content"
+	android:text="go"
+	android:layout_x="23dp"
+	android:layout_y="420dp" />
+</TableLayout>
+-->

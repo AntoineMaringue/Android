@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/widget72"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+	android:id="@+id/id_product"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="ID"
+	android:textSize="18sp" />
+<EditText
+	android:id="@+id/brand_product"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Marque"
+	android:textSize="18sp" />
+<EditText
+	android:id="@+id/desc_product"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Description"
+	android:textSize="18sp" />
+<EditText
+	android:id="@+id/cat_product"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Categorie"
+	android:textSize="18sp" />
+<EditText
+	android:id="@+id/price_product"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Prix"
+	android:textSize="18sp" />
+<EditText
+	android:id="@+id/url_img"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="URL Image"
+	android:textSize="18sp" />
+
+        <Button
+        android:id="@+id/btn_validation_new_product"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+        android:text="Validation"
+        >
+            
+        </Button>
+</LinearLayout>

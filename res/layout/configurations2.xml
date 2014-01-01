@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+	android:id="@+id/btnconfigserver"
+	android:layout_width="159dp"
+	android:layout_height="wrap_content"
+	android:text="@string/configuration_serveur"
+	android:layout_x="10dp"
+	android:layout_y="5dp" />
+<Button
+	android:id="@+id/btnconnexionbase"
+	android:layout_width="156dp"
+	android:layout_height="wrap_content"
+	android:text="@string/connex_bdd"
+	android:layout_x="12dp"
+	android:layout_y="70dp" />
+<Spinner
+	android:id="@+id/spinsites"
+	android:layout_width="298dp"
+	android:layout_height="wrap_content"
+	android:layout_x="15dp"
+	android:layout_y="174dp" />
+<TextView
+	android:id="@+id/txtlstsite"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/txt_lst_sites"
+	android:textColor="#000000"
+	android:layout_x="16dp"
+	android:layout_y="142dp" />
+<Button
+	android:id="@+id/btnvalidation"
+	android:layout_width="282dp"
+	android:layout_height="wrap_content"
+	android:text="@string/btn_validation_config"
+	android:layout_x="15dp"
+	android:layout_y="280dp" />
+
+<ImageView
+            android:id="@+id/imgDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        >
+            
+        </ImageView>
+    
+       
+</AbsoluteLayout>
