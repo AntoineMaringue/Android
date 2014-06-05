@@ -13,12 +13,11 @@ import android.content.Context;
 
 public class Dialog {
 
-    public static void showMessage(Context context, String msg) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setMessage(msg)
-                .setCancelable(false)
-                .setPositiveButton("Fermer", null);
-        AlertDialog alert = builder.create();
-        alert.show();
-    }
+	public static void showMessage(Context context, String msg) {
+		AlertDialog.Builder builder = new AlertDialog.Builder(context);
+		builder.setMessage(msg).setCancelable(false)
+				.setPositiveButton("Fermer", null);
+		AlertDialog alert = builder.create();
+		alert.show();
+	}
 }

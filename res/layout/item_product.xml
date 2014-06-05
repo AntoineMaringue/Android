@@ -23,19 +23,20 @@
 	android:id="@+id/widget32"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
-        android:orientation="vertical"
+    android:orientation="vertical"
 	xmlns:android="http://schemas.android.com/apk/res/android">
+ 
  <ImageView
         android:id="@+id/product_img"
-        android:layout_width="150px"
-        android:layout_height="150px"
+        android:layout_width="180px"
+        android:layout_height="180px"
     />
 
  <TextView
         android:id="@+id/product_infos"
          android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18dp"
+        android:textSize="21dp"
         android:gravity="center"
         android:text=""
     />

@@ -5,26 +5,111 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	xmlns:android="http://schemas.android.com/apk/res/android">
-    
-    <Button
-	android:id="@+id/btnNewProduct"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	android:text="Nouveau Produit" />
-    
-            <GridView
-                    android:id="@+id/gridproducts"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                     android:columnWidth="90dp"
-                    android:numColumns="1"
-                    android:verticalSpacing="1dp"
-                    android:horizontalSpacing="1dp"
-                    android:paddingTop="2dp"
-                    android:stretchMode="columnWidth"
-                    android:layout_gravity="right"
-                    android:gravity="right"
-                >
-                    
-     </GridView>
+
+    <GridView
+        android:id="@+id/gridproducts"
+        android:layout_width="wrap_content"
+        android:layout_height="235dp"
+        android:layout_gravity="center"
+        android:columnWidth="90dp"
+        android:gravity="right"
+        android:horizontalSpacing="1dp"
+        android:numColumns="1"
+        android:paddingTop="2dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dp" >
+
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantité :"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/qteP"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"
+            android:text="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date de péremption :"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:text="year/month/day" />
+
+    </LinearLayout>
+     <!--  
+     <ImageView
+        android:id="@+id/product_img"
+        android:layout_width="150px"
+        android:layout_height="150px"
+    />
+
+ <TextView
+        android:id="@+id/product_infos"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text=""
+    />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Date de consomation  :"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/etDateC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="date"
+            android:text="year/month/day" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnNewProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_create" />
+
 </LinearLayout>

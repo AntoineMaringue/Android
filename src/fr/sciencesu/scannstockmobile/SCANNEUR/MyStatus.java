@@ -5,10 +5,9 @@
 package fr.sciencesu.scannstockmobile.SCANNEUR;
 
 /**
- *
+ * 
  * @author antoi_000
  */
 public enum MyStatus {
-COMPUTING,
-FINISHED
+	COMPUTING, FINISHED
 }

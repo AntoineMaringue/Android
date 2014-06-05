@@ -5,14 +5,13 @@ import android.os.Handler;
 
 import com.google.zxing.Result;
 
-
 public interface IDecoderActivity {
 
-    public ViewfinderView getViewfinder();
+	public ViewfinderView getViewfinder();
 
-    public Handler getHandler();
+	public Handler getHandler();
 
-    public CameraManager getCameraManager();
+	public CameraManager getCameraManager();
 
-    public void handleDecode(Result rawResult, Bitmap barcode);
+	public void handleDecode(Result rawResult, Bitmap barcode);
 }

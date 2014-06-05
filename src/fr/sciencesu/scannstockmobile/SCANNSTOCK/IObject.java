@@ -5,16 +5,18 @@
 package fr.sciencesu.scannstockmobile.SCANNSTOCK;
 
 /**
- *
+ * 
  * @author antoi_000
  */
-public interface IObject 
-{
-    String getName();
-    String getImg();
-    String getContenance();
-    String getMarque();
-    String getCategorie();
-    
-        
+public interface IObject {
+	String getName();
+
+	String getImg();
+
+	String getContenance();
+
+	String getMarque();
+
+	String getCategorie();
+
 }

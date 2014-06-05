@@ -62,9 +62,9 @@
     <string name="txt_mdp">Mot de passe :</string>
     <string name="btn_validation_config">Validation</string>
     
-    <string name="Scan">Scanner un code à barres</string>
-    <string name="Parameters">Param\ètres de l\'application</string>
-    <string name="Aide">Aide</string>
-    <string name="Contacts">Nous contacter</string>
-    <string name="Sortir">Quitter l\'application</string>  
+    <string name="Scan">"Scanner un code à barres"</string>
+    <string name="Parameters">"Paramètres de l'application"</string>
+    <string name="Aide">"Aide"</string>
+    <string name="Contacts">"Nous contacter"</string>
+    <string name="Sortir">"Quitter"</string>  
 </resources>
